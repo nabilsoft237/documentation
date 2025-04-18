@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'msi'
+project = 'mydocc'
 copyright = '2025, ngouhouo nabil'
 author = 'ngouhouo nabil'
 release = '1.0'
@@ -26,4 +26,4 @@ language = 'fr'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'alabaster'
-html_static_path = ['_static']
+
