@@ -4,18 +4,10 @@
 # Required
 version: 2
 
-# Set the OS, Python version, and other tools you might need
-build:
-  os: ubuntu-24.04
-  tools:
-    python: "3.10.12"
-
-
-
 python:
-  version: "3.10.12"  # Spécifiez la version de Python
+  version: "3.10"  # Utilisez des guillemets autour de la version
   install:
-    - requirements: requirements.txt  # Chemin vers votre fichier requirements.txt
+    - requirements: requirements.txt
 
 sphinx:
-  configuration: docs/conf.py  # Chemin vers votre fichier de configuration Sphinx
+  configuration: docs/conf.py
